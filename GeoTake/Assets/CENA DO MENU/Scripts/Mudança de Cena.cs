@@ -31,4 +31,9 @@ public class MudançadeCena : MonoBehaviour
         Debug.Log("Saindo do Jogo");
         Application.Quit();
     }
+
+    public void VoltarParaMenu()
+    {
+        SceneManager.LoadScene("Tela de Menu"); // Certifique-se de que a cena tem esse nome no Build Settings
+    }
 }
