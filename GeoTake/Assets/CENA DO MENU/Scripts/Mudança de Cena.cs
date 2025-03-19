@@ -6,10 +6,24 @@ using UnityEngine.SceneManagement;
 public class MudançadeCena : MonoBehaviour
 {
     [SerializeField] private string CenaJogar;
+    [SerializeField] private GameObject painelMenuInicial;
+    [SerializeField] private GameObject painelOpcoes;
     public void Jogar()
     {
         Debug.Log("Inciando o jogo");
         SceneManager.LoadScene(CenaJogar);
+    }
+
+    public void AbrirOpcoes()
+    {
+        painelMenuInicial.SetActive(false);
+        painelOpcoes.SetActive(true);
+    }
+
+    public void FecharOpcoes()
+    {
+        painelOpcoes.SetActive(false);
+        painelMenuInicial.SetActive(true);
     }
 
     public void Sair()
