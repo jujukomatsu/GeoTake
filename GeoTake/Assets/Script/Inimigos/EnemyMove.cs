@@ -16,7 +16,7 @@ public class EnemyMove3D : MonoBehaviour
         transform.Translate(Vector3.forward * speed * Time.deltaTime);
 
         // Desenha o raycast na cena (para debug visual)
-        Debug.DrawRay(rayOrigin.position, transform.forward * rayDistance, Color.red);
+
 
         // Detecta colisão com parede
         RaycastHit hit;
