@@ -30,7 +30,7 @@ f(s) = -75s/9 + 1500
 ## 🎨 Estética e Inspirações
 
 - **Câmera:** Vista entre **45º e 90º**, semelhante a "Bomberman".
-- **Personagens:** Modelos inspirados em "Overcooked", "Fall Guys" e "Koroks" de Zelda: Breath of The Wild.
+- **Personagens:** Modelos inspirados em "Overcooked", "Fall Guys" e "Koroks" de Zelda: Breath of The Wild e Brawl Stars.
 - **Terrenos:** Cada fase representa um bioma brasileiro, incluindo vegetação e estruturas típicas.
 
 ## 🔗 Referências
