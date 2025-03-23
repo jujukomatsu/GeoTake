@@ -19,7 +19,7 @@ public class PerseguirPlayer : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        inimigo = GetComponent<NavMeshAgent>();
-        inimigo.destination = player.position;
+        
+        inimigo.SetDestination(player.position);
     }
 }
