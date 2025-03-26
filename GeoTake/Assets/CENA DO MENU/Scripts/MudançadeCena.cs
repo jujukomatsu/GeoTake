@@ -8,10 +8,22 @@ public class MudançadeCena : MonoBehaviour
     [SerializeField] private string CenaJogar;
     [SerializeField] private GameObject painelMenuInicial;
     [SerializeField] private GameObject painelOpcoes;
+    string currentScene;
+    public void Start()
+    {
+        // Obtém o nome da cena atual
+        currentScene = SceneManager.GetActiveScene().name;
+
+    }
     public void Jogar()
     {
         Debug.Log("Inciando o jogo");
         SceneManager.LoadScene(CenaJogar);
+    }
+
+    public void ReiniciarLevel()
+    {
+        SceneManager.LoadScene(currentScene);
     }
 
     public void AbrirOpcoes()
