@@ -13,6 +13,7 @@ public class VitoriaDerrota : MonoBehaviour
 
     public GameObject telaDerrota;
     public GameObject telaVitoria;
+    public string faseAtual;
     
     private void Start()
     {
@@ -64,6 +65,6 @@ public class VitoriaDerrota : MonoBehaviour
     public void resetarFase() // Botão de reiniciar a fase
     {
         Debug.Log("Reiniciando a fase atual");
-        SceneManager.LoadScene("Fase01");
+        SceneManager.LoadScene(faseAtual);
     }
 }
