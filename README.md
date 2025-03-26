@@ -53,6 +53,7 @@ f(s) = -75s/9 + 1500
 - @andreelzs - Desenvolvedor e Design
 - @matheusg0mes - Desenvolvedor e Design
 - @LucasLeitePereira - Desenvolvedor e Design
+- @jujukomastu - Desenvolvedor e Design
 
 
 
