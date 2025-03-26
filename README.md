@@ -51,6 +51,7 @@ f(s) = -75s/9 + 1500
 ## 👥 Equipe
 - @jhonxl - Desenvolvedor e Design
 - @andreelzs - Desenvolvedor e Design
+- @jujukomatsu - Desenvolvedora e Design
 - @matheusg0mes - Desenvolvedor e Design
 - @LucasLeitePereira - Desenvolvedor e Design
 
