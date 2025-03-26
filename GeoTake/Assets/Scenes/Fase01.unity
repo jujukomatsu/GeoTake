@@ -732,6 +732,7 @@ MonoBehaviour:
   cenaMenu: Tela de Menu
   telaDerrota: {fileID: 2026263677}
   telaVitoria: {fileID: 1654236859}
+  faseAtual: 
 --- !u!1 &57893790
 GameObject:
   m_ObjectHideFlags: 0
@@ -18816,6 +18817,7 @@ PrefabInstance:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
+  - {fileID: 2106332486}
   - {fileID: 1018194226}
   - {fileID: 978967392}
   - {fileID: 1444154801}
@@ -18824,6 +18826,5 @@ SceneRoots:
   - {fileID: 2126560798}
   - {fileID: 1197884682}
   - {fileID: 1830064052}
-  - {fileID: 2106332486}
   - {fileID: 56153816}
   - {fileID: 778833939}
