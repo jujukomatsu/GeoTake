@@ -8,6 +8,7 @@ public class MudançadeCena : MonoBehaviour
     [SerializeField] private string CenaJogar;
     [SerializeField] private GameObject painelMenuInicial;
     [SerializeField] private GameObject painelOpcoes;
+    public GameObject QUIZ;
     string currentScene;
     public void Start()
     {
@@ -18,7 +19,8 @@ public class MudançadeCena : MonoBehaviour
     public void Jogar()
     {
         Debug.Log("Inciando o jogo");
-        SceneManager.LoadScene(CenaJogar);
+        //SceneManager.LoadScene(CenaJogar);
+        QUIZ.SetActive(true);
     }
 
     public void ReiniciarLevel()
