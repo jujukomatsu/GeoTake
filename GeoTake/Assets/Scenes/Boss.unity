@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -8299,7 +8299,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1043794974
 Transform:
   m_ObjectHideFlags: 0
@@ -9535,6 +9535,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4a1a37cf416d9cb4bafc705c70a551d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  obs2: {fileID: 0}
   obs: {fileID: 835091392}
 --- !u!1001 &1195955121
 PrefabInstance:
@@ -14691,7 +14692,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1906882720
 Transform:
   m_ObjectHideFlags: 0
@@ -14716,13 +14717,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1906882719}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 460e2c5f078f5074d9b7537e11ec6700, type: 3}
+  m_Script: {fileID: 11500000, guid: 4a1a37cf416d9cb4bafc705c70a551d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  inimigo1: {fileID: 0}
-  inimigo2: {fileID: 0}
-  inimigo3: {fileID: 0}
-  inimigo4: {fileID: 0}
+  obs2: {fileID: 1043794973}
+  obs: {fileID: 835091392}
 --- !u!1 &1911950054
 GameObject:
   m_ObjectHideFlags: 0

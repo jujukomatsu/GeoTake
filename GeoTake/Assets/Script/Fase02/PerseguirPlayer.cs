@@ -23,12 +23,12 @@ void Start()
     void Update()
     {
         float distanciaJogador1 = Vector3.Distance(transform.position, jogador1.position);
-    float distanciaJogador2 = Vector3.Distance(transform.position, jogador2.position);
+        float distanciaJogador2 = Vector3.Distance(transform.position, jogador2.position);
     
-    Transform jogadorMaisProximo;
-    if (distanciaJogador1 < distanciaJogador2)
-    {
-        jogadorMaisProximo = jogador1;
+        Transform jogadorMaisProximo;
+        if (distanciaJogador1 < distanciaJogador2)
+         {
+                 jogadorMaisProximo = jogador1;
     }
     else
     {
