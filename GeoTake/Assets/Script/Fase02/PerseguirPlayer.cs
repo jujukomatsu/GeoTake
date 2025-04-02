@@ -7,8 +7,8 @@ public class PerseguirPlayer : MonoBehaviour
 {
    
 
-    public Transform jogador1; // Referência ao jogador 1
-    public Transform jogador2; // Referência ao jogador 2
+    public Transform jogador1; // Referï¿½ncia ao jogador 1
+    public Transform jogador2; // Referï¿½ncia ao jogador 2
     public NavMeshAgent agente; // O NavMeshAgent do inimigo
 
    
@@ -16,16 +16,15 @@ public class PerseguirPlayer : MonoBehaviour
 
 void Start()
     {
-      float distanciaJogador1 = Vector3.Distance(transform.position, jogador1.position);
-    float distanciaJogador2 = Vector3.Distance(transform.position, jogador2.position);
-    
+      
   
     }
 
     void Update()
     {
-    float distanciaJogador1 = Vector3.Distance(transform.position, jogador1.position);
+        float distanciaJogador1 = Vector3.Distance(transform.position, jogador1.position);
     float distanciaJogador2 = Vector3.Distance(transform.position, jogador2.position);
+    
     Transform jogadorMaisProximo;
     if (distanciaJogador1 < distanciaJogador2)
     {
