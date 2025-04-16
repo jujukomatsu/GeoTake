@@ -9537,6 +9537,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   obs2: {fileID: 0}
   obs: {fileID: 835091392}
+  movim1: {fileID: 0}
+  movim2: {fileID: 0}
 --- !u!1001 &1195955121
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14722,6 +14724,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   obs2: {fileID: 1043794973}
   obs: {fileID: 835091392}
+  movim1: {fileID: 0}
+  movim2: {fileID: 0}
 --- !u!1 &1911950054
 GameObject:
   m_ObjectHideFlags: 0
