@@ -65,7 +65,8 @@ public class GameController : MonoBehaviour
     {
         float tempo = timeCount;
         float resultado = ((-1500 * tempo) / timeTotal) + 1500;
-        Debug.Log("Resultado " + resultado);
+       
+       
 
     }
 
