@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class MudançadeCena : MonoBehaviour
+public class cenaQuiz : MonoBehaviour
 {
     [SerializeField] private string CenaJogar;
     [SerializeField] private GameObject painelMenuInicial;
@@ -12,7 +12,7 @@ public class MudançadeCena : MonoBehaviour
     string currentScene;
     public void Start()
     {
-        // Obtém o nome da cena atual
+        // Obt�m o nome da cena atual
         currentScene = SceneManager.GetActiveScene().name;
 
     }
@@ -50,9 +50,5 @@ public class MudançadeCena : MonoBehaviour
     {
         SceneManager.LoadScene("Tela de Menu"); // Certifique-se de que a cena tem esse nome no Build Settings
     }
-    public void AbrirQuiz()
-    {
-        painelMenuInicial.SetActive(false);
-        QUIZ.SetActive(true);
-    }
 }
+
